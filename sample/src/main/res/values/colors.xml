@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f6cccb</color>
+    <color name="colorPrimaryDark">#fa9e9e</color>
+    <color name="red">#eb1c24</color>
+    <color name="white">#ffffff</color>
+    <color name="txt_profile">#cbb93b</color>
+    <color name="colorAccent">#cbb</color>
+    <color name="purple">#2e3191</color>
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+
+    <color name="tab">#02aeef</color>
+    <color name="MainText">#00B8F1</color>
+
+    <color name="Brand_wall">#102694</color>
+    <color name="Brand_wall_text">#CFB841</color>
+
+    <color name="verdies_text">#102694</color>
+    <color name="verdies_image_back">#2B2E34</color>
+
+</resources>

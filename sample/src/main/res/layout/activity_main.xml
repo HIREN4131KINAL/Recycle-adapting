@@ -1,0 +1,221 @@
+<!--suppress ALL -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:saveEnabled="true"
+            android:scrollbars="none"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/view_feed_toolbar" />
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/content_main" />
+
+
+        <Button
+            android:id="@+id/fab11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="440dp"
+            android:background="@drawable/tech_shap_right"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Brand Wall"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="380dp"
+            android:background="@drawable/tech_shap_right"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Ads"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="320dp"
+            android:background="@drawable/tech_shap_right"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Profile"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="260dp"
+            android:background="@drawable/tech_shap_right"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Keep up"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="200dp"
+            android:background="@drawable/tech_shap_right"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Shop Online"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="140dp"
+            android:background="@drawable/tech_shap_right"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Shoot"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+
+        <Button
+            android:id="@+id/fab6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="140dp"
+            android:background="@drawable/tech_shap"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Shout out"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="200dp"
+            android:background="@drawable/tech_shap"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Abouts"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="260dp"
+            android:background="@drawable/tech_shap"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Keeps"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+
+        <Button
+            android:id="@+id/fab9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="380dp"
+            android:background="@drawable/tech_shap"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Search"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/fab10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="320dp"
+            android:background="@drawable/tech_shap"
+            android:backgroundTint="#90FFFFF0"
+            android:text="info"
+            android:visibility="invisible"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="440dp"
+            android:background="@drawable/tech_shap"
+            android:backgroundTint="#90FFFFF0"
+            android:text="Tops"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/fab"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round"
+            android:backgroundTint="#90FFFFF0"
+            android:scrollbarStyle="outsideOverlay"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="155dp"
+            android:background="@drawable/left"
+            android:text="Parties"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="155dp"
+            android:background="@drawable/right"
+            android:text="Hooks"
+            android:textAllCaps="false" />
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

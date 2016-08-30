@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Userbay</string>
+    <string name="button_update">Start Update</string>
+    <string name="button_reverse">Is reverse</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="font_awesome_android_icon">&#xf17b;</string>
+
+</resources>
