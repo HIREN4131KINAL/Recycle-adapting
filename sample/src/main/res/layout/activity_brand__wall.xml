@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/windowBackground"
     android:orientation="vertical">
 
 
@@ -17,9 +17,9 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/anim_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/Brand_wall"
-            android:elevation="4dp"
+            android:layout_height="@dimen/toolbar_hight"
+            android:background="@color/colorPrimary"
+            app:elevation="@dimen/default_elevation"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
     </android.support.design.widget.AppBarLayout>
@@ -45,7 +45,7 @@
             android:gravity="start"
             android:singleLine="true"
             android:text="Miriam cammigre"
-            android:textColor="@android:color/white"
+            android:textColor="@color/Brand_wall_text"
             android:textSize="18sp"
             android:textStyle="bold"
 
@@ -61,7 +61,7 @@
             android:singleLine="true"
             android:text="Icon 1"
             android:textAlignment="textEnd"
-            android:textColor="@android:color/white"
+            android:textColor="@color/Brand_wall_text"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -114,7 +114,7 @@
                 android:layout_weight="1"
                 android:gravity="end"
                 android:text="2 billion views"
-                android:textColor="@android:color/white"
+                android:textColor="@color/Brand_wall_text"
                 android:textSize="15sp" />
 
         </LinearLayout>
@@ -180,7 +180,7 @@
                     android:layout_marginRight="20dp"
                     android:gravity="end"
                     android:text="2 billion views"
-                    android:textColor="@android:color/white"
+                    android:textColor="@color/Brand_wall_text"
                     android:textSize="15sp" />
 
             </LinearLayout>
@@ -195,7 +195,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_gravity="bottom"
-        android:background="@color/Brand_wall">
+        android:background="@color/colorPrimary">
 
     </LinearLayout>
 

@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/iv_profile_privious"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_gravity="center"
         android:scaleType="centerCrop"
         android:src="@drawable/hiren" />

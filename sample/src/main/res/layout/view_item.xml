@@ -12,11 +12,10 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="325dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:drawable/picture_frame"
-            android:orientation="horizontal"
-            android:padding="20dp">
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/iv_post_image"
@@ -30,7 +29,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@android:drawable/divider_horizontal_bright"
             android:orientation="horizontal"
@@ -77,22 +76,21 @@
                 android:gravity="center"
                 android:singleLine="true"
                 android:text="Verdies"
-                android:textColor="@color/red"
-                android:textSize="25sp"
+                android:textColor="@color/Brand_wall_text"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_comments"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@android:drawable/editbox_dropdown_light_frame"
-             />
+            android:background="@android:drawable/editbox_dropdown_light_frame" />
 
         <HorizontalScrollView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center|clip_horizontal"
             android:layout_marginTop="3dp"
@@ -118,7 +116,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:weightSum="2">
 
                     <TextView
@@ -126,17 +124,17 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="0.8"
-                        android:gravity="start"
+                        android:gravity="center"
                         android:text="500000"
-                        android:textAppearance="@android:style/TextAppearance.Small" />
+                        android:textAppearance="@android:style/TextAppearance.Small"
+                        android:textColor="@color/textColorPrimary" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.2"
-                        android:gravity="start"
+                        android:gravity="center"
                         android:text="Likes"
                         android:textAppearance="@android:style/TextAppearance.Small"
                         android:textColor="@color/txt_profile"
@@ -150,7 +148,7 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:layout_weight="1"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:weightSum="2">
 
                     <TextView
@@ -158,17 +156,17 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="0.8"
-                        android:gravity="start"
+                        android:gravity="center"
                         android:text="20000"
-                        android:textAppearance="@android:style/TextAppearance.Small" />
+                        android:textAppearance="@android:style/TextAppearance.Small"
+                        android:textColor="@color/textColorPrimary" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.2"
-                        android:gravity="start"
+                        android:gravity="center"
                         android:text="Comments"
                         android:textAppearance="@android:style/TextAppearance.Small"
                         android:textColor="@color/txt_profile"
@@ -181,7 +179,7 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:layout_weight="1"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:weightSum="2">
 
                     <TextView
@@ -189,17 +187,17 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="0.8"
-                        android:gravity="start"
+                        android:gravity="center"
                         android:text="500000"
-                        android:textAppearance="@android:style/TextAppearance.Small" />
+                        android:textAppearance="@android:style/TextAppearance.Small"
+                        android:textColor="@color/textColorPrimary" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.2"
-                        android:gravity="start"
+                        android:gravity="center"
                         android:text="Rates"
                         android:textAppearance="@android:style/TextAppearance.Small"
                         android:textColor="@color/txt_profile"
@@ -212,7 +210,7 @@
                     android:layout_gravity="center"
                     android:layout_marginLeft="10dp"
                     android:layout_weight="1"
-                    android:orientation="horizontal"
+                    android:orientation="vertical"
                     android:weightSum="2">
 
                     <TextView
@@ -220,18 +218,18 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="0.8"
-                        android:gravity="start"
+                        android:gravity="center"
                         android:text="20000"
-                        android:textAppearance="@android:style/TextAppearance.Small" />
+                        android:textAppearance="@android:style/TextAppearance.Small"
+                        android:textColor="@color/textColorPrimary" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="5dp"
                         android:layout_weight="1.2"
-                        android:gravity="start"
-                        android:text="likes"
+                        android:gravity="center"
+                        android:text="Verdies"
                         android:textAppearance="@android:style/TextAppearance.Small"
                         android:textColor="@color/txt_profile"
                         android:textStyle="bold" />
@@ -253,7 +251,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="0"
                 android:text="Privious"
-                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textAppearance="@android:style/TextAppearance.Small"
                 android:textColor="@color/txt_profile"
                 android:textStyle="bold" />
 

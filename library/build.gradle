@@ -21,7 +21,6 @@ dependencies {
 }
 
 apply from: 'gradle-maven-push.gradle'
-
 afterEvaluate {
     androidJavadocs.classpath += project.android.libraryVariants.toList().first().javaCompile.classpath
 }

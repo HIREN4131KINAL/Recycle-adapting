@@ -5,6 +5,7 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/windowBackground"
     tools:context=".MainActivity">
 
     <android.support.design.widget.CoordinatorLayout
@@ -13,13 +14,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recyclerview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:saveEnabled="true"
-            android:scrollbars="none"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
 
         <android.support.design.widget.AppBarLayout
             android:id="@+id/appBarLayout"
@@ -41,8 +36,10 @@
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="440dp"
             android:background="@drawable/tech_shap_right"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Brand Wall"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -53,8 +50,10 @@
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="380dp"
             android:background="@drawable/tech_shap_right"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Ads"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -65,8 +64,10 @@
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="320dp"
             android:background="@drawable/tech_shap_right"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Profile"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -77,8 +78,10 @@
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="260dp"
             android:background="@drawable/tech_shap_right"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Keep up"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -89,8 +92,10 @@
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="200dp"
             android:background="@drawable/tech_shap_right"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Shop Online"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -101,8 +106,10 @@
             android:layout_gravity="right|bottom"
             android:layout_marginBottom="140dp"
             android:background="@drawable/tech_shap_right"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Shoot"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -114,8 +121,10 @@
             android:layout_gravity="left|bottom"
             android:layout_marginBottom="140dp"
             android:background="@drawable/tech_shap"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Shout out"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -126,8 +135,10 @@
             android:layout_gravity="left|bottom"
             android:layout_marginBottom="200dp"
             android:background="@drawable/tech_shap"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Abouts"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -138,8 +149,10 @@
             android:layout_gravity="left|bottom"
             android:layout_marginBottom="260dp"
             android:background="@drawable/tech_shap"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Keeps"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -151,8 +164,10 @@
             android:layout_gravity="left|bottom"
             android:layout_marginBottom="380dp"
             android:background="@drawable/tech_shap"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Search"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -163,8 +178,10 @@
             android:layout_gravity="left|bottom"
             android:layout_marginBottom="320dp"
             android:background="@drawable/tech_shap"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="info"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible"
             app:pressedTranslationZ="12dp" />
 
@@ -175,8 +192,10 @@
             android:layout_gravity="left|bottom"
             android:layout_marginBottom="440dp"
             android:background="@drawable/tech_shap"
-            android:backgroundTint="#90FFFFF0"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Tops"
+            android:textColor="@color/color_magic_buttons_text"
+            android:textSize="12sp"
             android:visibility="invisible" />
 
         <Button
@@ -186,7 +205,6 @@
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="20dp"
             android:background="@drawable/round"
-            android:backgroundTint="#90FFFFF0"
             android:scrollbarStyle="outsideOverlay"
             app:elevation="6dp"
             app:pressedTranslationZ="12dp" />
@@ -199,8 +217,10 @@
             android:layout_marginBottom="30dp"
             android:layout_marginRight="155dp"
             android:background="@drawable/left"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Parties"
-            android:textAllCaps="false" />
+            android:textAllCaps="false"
+            android:textColor="@color/color_magic_buttons_text" />
 
 
         <Button
@@ -211,9 +231,10 @@
             android:layout_marginBottom="30dp"
             android:layout_marginLeft="155dp"
             android:background="@drawable/right"
+            android:backgroundTint="@color/color_magic_buttons"
             android:text="Hooks"
-            android:textAllCaps="false" />
-
+            android:textAllCaps="false"
+            android:textColor="@color/color_magic_buttons_text" />
 
     </android.support.design.widget.CoordinatorLayout>
 

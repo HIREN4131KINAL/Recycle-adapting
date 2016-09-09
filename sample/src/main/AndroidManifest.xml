@@ -22,18 +22,17 @@
         </activity>
 
         <activity android:name=".SignupActivity" />
-        <activity
-            android:name=".Parties_Activity"
-            android:label="Party" />
-        <activity
-            android:name=".Tops_page"
-            android:label="Tops">
+        <activity android:name=".Parties_Activity" />
+        <activity android:name=".Tops_page">
 
         </activity>
         <activity
             android:name=".Brand_Wall"
             android:label="Brand Wall"></activity>
-        <activity android:name=".Best_verdies" />
+
+        <activity
+            android:name=".Best_verdies"
+            android:windowSoftInputMode="stateHidden" />
 
         <activity
             android:name=".Profile_page"
